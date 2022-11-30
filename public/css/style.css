@@ -12,6 +12,17 @@ section:last-child{
     color: green;
 }
 
+#les_hover_01 ul>li:nth-child(1){
+    width: 150px;
+    height: 150px;
+}
+
+#les_hover_01 ul>li:nth-child(2){
+background-color: lightblue;
+}
+#les_hover_01 ul>li:nth-child(3):hover{
+    background-color: purple;}
+
 /* fin exo 01 les_hover_01 */
 
 
