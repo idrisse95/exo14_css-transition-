@@ -60,6 +60,16 @@ border-radius: 10px;
 
 /* début exo 04 les transitions */
 
+#les_transition_04 .transition_04{
+    background-color: yellow;
+    width: 150px;height: 150px;
+    transition: 4s;
+
+}
+#les_transition_04 .transition_04:hover{
+    background-color: red;
+}
+
 /* fin exo 04 les transitions */
 
 
