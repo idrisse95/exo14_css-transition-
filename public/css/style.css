@@ -32,7 +32,7 @@ background-color: lightblue;
     background-color: lightblue;
 }
 
-#les_hover_02 ul>li:nth-child(2):visited{
+#les_hover_02 ul>li:nth-child(2):active{
     width: 150px;
     height: 150px;
 
@@ -49,7 +49,10 @@ background-color: lightblue;
 
 /* début exo 03 les_focus_03 */
 
+#le_focus_03 input:focus{
+    border: solid 5px blue ;
 
+}
 
 /* fin exo 03 les_focus_03 */
 
