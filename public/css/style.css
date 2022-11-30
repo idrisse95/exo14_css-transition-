@@ -38,7 +38,7 @@ background-color: lightblue;
 
 }
 
-#les_hover_02 ul>li:nth-child(1):hover{
+#les_hover_02 ul>li:nth-child(1):hover + .height_and_width{
     height: 200px; width: 500px;
 }
 
@@ -48,6 +48,7 @@ background-color: lightblue;
 
 
 /* début exo 03 les_focus_03 */
+
 
 
 /* fin exo 03 les_focus_03 */
