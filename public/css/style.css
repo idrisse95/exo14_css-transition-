@@ -18,7 +18,7 @@ section:last-child{
 #les_hover_01 ul>li:nth-child(2):hover{
 background-color: lightblue;
 }
-#les_hover_01 ul>li:nth-child(3):hover + .bg-color{
+#les_hover_01 .bg-color:hover{
     background-color: purple;
 }
 
@@ -37,8 +37,7 @@ background-color: lightblue;
     height: 150px;
 
 }
-
-#les_hover_02 ul>li:nth-child(1):hover + .height_and_width{
+#les_hover_02 .height_and_width:hover{
     height: 200px; width: 500px;
 }
 
@@ -109,7 +108,7 @@ border-radius: 10px;
 /* début exo 07 les transitions */
 
 #les_transition_07 .transition_07{
-    background-color: grey;
+    background-color: green;
     width: 150px;height: 150px;
     transition: 3s;
     transition-timing-function: ease-in-out;
@@ -125,17 +124,69 @@ border-radius: 10px;
 
 /* début exo 08 les transitions */
 
+#les_transition_08 .transition_08{
+    background-color: lightblue;
+    width: 150px;height: 150px;
+    transition: 3s;
+    transition-timing-function: ease-in-out;
+}
+
+#les_transition_08 .transition_08:active{
+    margin-left: 80%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+}
+
 /* fin exo 08 les transitions */
 
 
 
 /* début exo 09 les transitions */
 
+#les_transition_09 .transition_09{
+    background-color: blue;
+    width: 150px;height: 150px;
+    transition: 3s;
+    transition-timing-function: ease-in-out;
+}
+.transition_09_enfant{ 
+    width: 20%;height: 20%;background-color: lightblue;
+    
+}
+#les_transition_09 .transition_09:active .transition_09_enfant{
+    background-color: red;
+}
+
 /* fin exo 09 les transitions */
 
 
 
 /* début exo 10 les transitions */
+
+#les_transition_10 .transition_10{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: 3s;
+}
+#les_transition_10 .transition_10_intrus{
+    width: 20%;height: 20%;
+    background-color: blue;
+    border-radius: 50%;
+    transition: 3s;
+}
+
+#les_transition_10 .transition_10:active .transition_10_intrus{
+    background-color: rgb(71, 41, 123);
+    border-radius: 0;
+    margin-left: 100%;
+} 
+#les_transition_10 .transition_10:active{
+    border-radius: 50%;
+    margin-left: 80%;
+} 
 
 /* fin exo 10 les transitions */
 
