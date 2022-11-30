@@ -75,6 +75,16 @@ border-radius: 10px;
 
 
 /* début exo 05 les transitions */
+#les_transition_05 .transition_05{
+    background-color: red;
+    width: 150px;height: 150px;
+    transition: 2s;
+}
+#les_transition_05 .transition_05:hover{
+    background-color: purple;
+    border-radius: 50%;
+
+}
 
 /* fin exo 05 les transitions */
 
