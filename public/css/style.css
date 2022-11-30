@@ -8,26 +8,40 @@ section:last-child{
 
 /* début exo 01 les_hover_01 */
 
-#les_hover_01:hover{
-    color: green;
-}
 
-#les_hover_01 ul>li:nth-child(1){
+
+#les_hover_01 ul>li:nth-child(1):hover{
     width: 150px;
     height: 150px;
 }
 
-#les_hover_01 ul>li:nth-child(2){
+#les_hover_01 ul>li:nth-child(2):hover{
 background-color: lightblue;
 }
-#les_hover_01 ul>li:nth-child(3):hover{
-    background-color: purple;}
+#les_hover_01 ul>li:nth-child(3):hover + .bg-color{
+    background-color: purple;
+}
 
 /* fin exo 01 les_hover_01 */
 
 
 
 /* début exo 02 les_hover_02 */
+
+#les_hover_02 ul>li:nth-child(1):hover{
+    background-color: lightblue;
+}
+
+#les_hover_02 ul>li:nth-child(2):visited{
+    width: 150px;
+    height: 150px;
+
+}
+
+#les_hover_02 ul>li:nth-child(1):hover{
+    height: 200px; width: 500px;
+}
+
 
 /* fin exo 02 les_hover_02 */
 
