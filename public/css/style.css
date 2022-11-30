@@ -32,7 +32,7 @@ background-color: lightblue;
     background-color: lightblue;
 }
 
-#les_hover_02 ul>li:nth-child(2):active{
+#les_hover_02 ul>li:nth-child(2):hover{
     width: 150px;
     height: 150px;
 
@@ -91,6 +91,16 @@ border-radius: 10px;
 
 
 /* début exo 06 les transitions */
+
+#les_transition_06 .transition_06{
+    background-color: grey;
+    width: 150px; height: 150px;
+    transition: 3s;
+}
+
+#les_transition_06 .transition_06:active{
+    margin: 300px;
+}
 
 /* fin exo 06 les transitions */
 
