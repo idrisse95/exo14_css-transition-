@@ -1,8 +1,8 @@
 section{
     border-bottom: 1px solid;
 }
-section:last-child{
-    border-bottom: none;
+section{
+    padding-bottom: 50px;
 }
 
 
@@ -10,14 +10,14 @@ section:last-child{
 
 
 
-#les_hover_01 ul>li:nth-child(1):hover{
+#les_hover_01 .bg-color{
+    background-color: lightblue;
     width: 150px;
     height: 150px;
+    transition: 2s;
 }
 
-#les_hover_01 ul>li:nth-child(2):hover{
-background-color: lightblue;
-}
+
 #les_hover_01 .bg-color:hover{
     background-color: purple;
 }
@@ -28,15 +28,14 @@ background-color: lightblue;
 
 /* début exo 02 les_hover_02 */
 
-#les_hover_02 ul>li:nth-child(1):hover{
-    background-color: lightblue;
-}
 
-#les_hover_02 ul>li:nth-child(2):hover{
+#les_hover_02 .height_and_width{
+    background-color: lightblue;
     width: 150px;
     height: 150px;
-
+    transition: 2s;
 }
+
 #les_hover_02 .height_and_width:hover{
     height: 200px; width: 500px;
 }
