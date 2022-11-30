@@ -108,6 +108,17 @@ border-radius: 10px;
 
 /* début exo 07 les transitions */
 
+#les_transition_07 .transition_07{
+    background-color: grey;
+    width: 150px;height: 150px;
+    transition: 3s;
+    transition-timing-function: ease-in-out;
+}
+
+#les_transition_07 .transition_07:active{
+    margin: 80%;
+}
+
 /* fin exo 07 les transitions */
 
 
