@@ -51,7 +51,7 @@ background-color: lightblue;
 
 #le_focus_03 input:focus{
     border: solid 5px blue ;
-border-radius: 10px;
+border-radius: 10px; 
 }
 
 /* fin exo 03 les_focus_03 */
